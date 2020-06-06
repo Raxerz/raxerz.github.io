@@ -1,0 +1,1128 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+  	   <meta charset="UTF-8">
+  	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	   <meta name="description" content="Responsive Personal Portfolio vCard Template">
+
+        <title>Bootstrap 4 One Page Website Tutorial</title>
+
+        <!-- CSS -->
+
+        <!-- Web Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+      	<!-- Bootstrap core CSS -->
+      	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+      	<!-- Animate css -->
+        <link href="assets/css/animate.css" rel="stylesheet">
+        <!-- Magnific css -->
+      	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+      	<!-- Custom styles CSS -->
+      	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+        <!-- Responsive CSS -->
+        <link href="assets/css/responsive.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/timeline.css">
+        <link rel="stylesheet" href="assets/css/style-2.css">
+        <link rel="stylesheet" href="assets/css/font-awesome/css/fa-colors.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/carousel.css">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+
+      <!-- Preloader -->
+      <div id="tt-preloader">
+        <div id="pre-status">
+          <div class="preload-placeholder"></div>
+        </div>
+      </div>
+
+        <!-- Top content -->
+        <div style="background: rgba(26, 30, 35, 0.90); height: 50px;"></div>
+        <div id="top-content" class="top-content">
+            <div class="container-fluid">
+
+                <div class="row">
+                    <div class="col-md-6 col-xs-12 text top-content-left">
+                      <div class="personal-info1">
+                        <h1 class="wow fadeInLeftBig">S J Rajath Krishna</h1>
+                        <div class="intro-sub1 wow fadeInLeftBig">Software Engineer | GSoC Student 2017 | GSoC Mentor 2018</div>
+                        <div class="description wow fadeInLeftBig">
+                        	<p>
+                         	This is a free responsive one page template made with the Bootstrap framework.
+                         	Check it out now. Download it, customize and use it as you like!
+                        	</p>
+                        </div>
+                        <div class="top-big-link download-button wow fadeInUp">
+        			            <a class="btn btn-info" href="#"><i class="fa fa-paper-plane"></i>Send me message</a>
+        			            <a class="btn btn-primary" href="#"><i class="fa fa-download"></i>Download my CV</a>
+                        </div>
+                        <div class="social-icons1" id="social-icons">
+                          <ul class="list-inline">
+                            <li class="wow fadeInUp">
+                              <a target="_blank" rel="noopener" href="{{person.socials.li.url}}"><i class="fab fa-linkedin" title="Linkedin profile"></i></a>
+                            </li>
+                            <li class="wow fadeInUp">
+                              <a target="_blank" rel="noopener" href="{{person.socials.git.url}}"><i class="fab fa-github" title="Github account"></i></a>
+                            </li>
+                            <li class="wow fadeInUp">
+                              <a target="_blank" rel="noopener" href="{{person.socials.bb.url}}"><i class="fab fa-google" title="{{person.socials.bb.title}}"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-xs-12 text top-content-right">
+                        <div class="col-md-8 col-md-offset-2 col-xs-12">
+                          <div class="biography">
+                            <div class="myphoto">
+                              <img class="myphoto-img" src="assets/img/myphoto.jpg" alt="">
+                            </div>
+                          </div>
+                        </div> <!-- col-md-4 -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Navigation -->
+      	<header class="header">
+      		<nav class="navbar navbar-custom" role="navigation">
+      			<div class="container">
+      				<div class="navbar-header">
+      					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+      						<span class="sr-only">Toggle navigation</span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+      				</div>
+
+      				<div class="collapse navbar-collapse" id="custom-collapse">
+      					<ul class="nav navbar-nav navbar-right">
+      						<li><a href="#home">Home</a></li>
+      						<li><a href="#resume">Resume</a></li>
+      						<li><a href="#skills">Skills</a></li>
+      						<li><a href="#works">Projects</a></li>
+      						<li><a href="#blog">Featured</a></li>
+                  <li><a href="#contact">Contact</a></li>
+      					</ul>
+      				</div>
+      			</div><!-- .container -->
+      		</nav>
+      	</header><!-- End Navigation -->
+
+        <section id="resume" class="resume-section section-padding container">
+          <h2 style="" class="section-title wow fadeInUp">RESUME</h2>
+          <hr>
+          <div class="exp row">
+                  <div class="col-md-12  ">
+                    <div id="edu" class="resume-title wow">
+                      <h3 class="text-center">Experience</h2>
+                    </div>
+                      <div class="resume">
+                          <ul class="timeline">
+                                      <li class="" style="color: ">
+                                      <div class="posted-date">
+                                          <span class="month">2017-Present</span>
+                                      </div><!-- /posted-date -->
+
+                                      <div class="timeline-panel wow fadeInUp">
+                                          <div class="timeline-content">
+                                            <div class="col-md-3 col-xs-12 pull-left text-center">
+                                              <img src="assets/img/dish_sling.png"></i>
+                                            </div>
+                                              <div class="timeline-heading">
+                                                  <h3>Software Engineer</h3>
+                                                  <span>Sling TV | DISH Network, Bengaluru, India</span>
+                                              </div><!-- /timeline-heading -->
+
+                                              <div class="timeline-body">
+                                                  <p>As an android developer I had to work on the AirTV Player and AirTV Mini products. These
+  products are Android TV set top box devices that are sold in the US.</p>
+                                                  <p>I was involved in debugging, investigating and fixing numerous platform and app bugs and even
+                                                  adding workarounds for some Android framework bugs. I also had to decompile and debug
+                                                  obfuscated code of third party apps to identify issues.</p>
+                                              </div><!-- /timeline-body -->
+                                          </div> <!-- /timeline-content -->
+                                      </div><!-- /timeline-panel -->
+                                  </li>
+                                      <li class="timeline-inverted" style="color: ">
+                                      <div class="posted-date">
+                                          <span class="month">May - Aug 2018</span>
+                                      </div><!-- /posted-date -->
+
+                                      <div class="timeline-panel wow fadeInUp">
+                                          <div class="timeline-content">
+                                            <div class="col-md-3 col-xs-12 pull-left text-center">
+                                              <img src="assets/img/google.png"></i>
+                                            </div>
+                                              <div class="timeline-heading">
+                                                  <h3>Student Mentor</h3>
+                                                  <span>Google Summer of Code</span>
+                                              </div><!-- /timeline-heading -->
+
+                                              <div class="timeline-body">
+                                                  <p>Contributed to Anita Borg's Systers Open Source Organisation</p>
+                                                  <p>My responsibilities as a GSoC Mentor involved :</p>
+                                                  <ol class="work-details-list">
+                                                      <li>Rating GSoC student proposals</li>
+                                                      <li>Helping student solve technical and project related Issues</li>
+                                                      <li>Guiding student with new Ideas, better project design decisions, optimizations</li>
+                                                      <li>Reviewing pull requests</li>
+                                                      <li>Providing feedback</li>
+                                                  </ol>
+                                              </div><!-- /timeline-body -->
+                                          </div> <!-- /timeline-content -->
+                                      </div><!-- /timeline-panel -->
+                                  </li>
+                                  <li class="timeline-inverted" style="color: ">
+                                      <div class="posted-date">
+                                          <span class="month">May - Aug 2017</span>
+                                      </div><!-- /posted-date -->
+
+                                      <div class="timeline-panel wow fadeInUp">
+                                          <div class="timeline-content">
+                                              <div class="col-md-3 col-xs-12 pull-left text-center">
+                                                <img src="assets/img/google.png"></i>
+                                              </div>
+                                              <div class="timeline-heading">
+                                                  <h3>Student Developer</h3>
+                                                  <span>Google Summer of Code</span>
+                                              </div><!-- /timeline-heading -->
+
+                                              <div class="timeline-body">
+                                                <p>Contributed to Anita Borg's Systers Open source organization</p>
+                                                  <p>My responsibilities as a GSoC Student involved :</p>
+                                                  <ol class="work-details-list">
+                                                      <li>Designing proposal with the plan of implementation and relevant mock ups</li>
+                                                      <li>Designing project structure with emphasis on modularity, reusablitity and code scalability</li>
+                                                      <li>Using Node.js, Angular4, MySQL related stack for developing interactive games for malaria education</li>
+                                                  </ol>
+                                              </div><!-- /timeline-body -->
+                                          </div> <!-- /timeline-content -->
+                                      </div><!-- /timeline-panel -->
+                                  </li>
+
+                                  <li class="" style="color: ">
+                                  <div class="posted-date">
+                                      <span class="month">Jan - Jun 2017</span>
+                                  </div><!-- /posted-date -->
+
+                                  <div class="timeline-panel wow fadeInUp">
+                                      <div class="timeline-content">
+                                          <div class="col-md-3 col-xs-12 pull-left text-center">
+                                            <img src="assets/img/mobstac.png"></i>
+                                          </div>
+                                          <div class="timeline-heading">
+                                              <h3>Product Development Intern</h3>
+                                              <span>MobStac</span>
+                                          </div><!-- /timeline-heading -->
+
+                                          <div class="timeline-body">
+                                            <p>During my internship at MobStac I worked on developing an API to integrate Google's nearby notification in Bluetooth low energy beacons.
+<br> I also developed an end to end chrome extension that bypasses captive portals by making use of WISPr protocol and automatically logs in premium users to a WiFi network.</p>
+                                          </div><!-- /timeline-body -->
+                                      </div> <!-- /timeline-content -->
+                                  </div><!-- /timeline-panel -->
+                              </li>
+                              <li class="timeline-inverted" style="color: ">
+                                  <div class="posted-date">
+                                      <span class="month">Jun - Aug 2016</span>
+                                  </div><!-- /posted-date -->
+
+                                  <div class="timeline-panel wow fadeInUp">
+                                      <div class="timeline-content">
+                                        <div class="col-md-2 col-xs-12 pull-left text-center">
+                                          <img src="assets/img/winkl.png"></i>
+                                        </div>
+                                          <div class="timeline-heading">
+                                              <h3>Product Development Intern</h3>
+                                              <span>Winkl</span>
+                                          </div><!-- /timeline-heading -->
+
+                                          <div class="timeline-body">
+                                              <ol class="work-details-list">
+                                                  <li>Worked on Elastic Compute Cloud (EC2) Servers and other services offered by Amazon Web Services (AWS).</li>
+                                                  <li>Developed a machine learning algorithm using Pearson correlation to implement a collaborative filtering recommender system.</li>
+                                                  <li>Wrote 60 server side REST API's for their android application and worked on developing GCM push notifications.</li>
+                                                  <li>Also developed several web pages which includes a product filter page.</li>
+                                              </ol>
+                                          </div><!-- /timeline-body -->
+                                      </div> <!-- /timeline-content -->
+                                  </div><!-- /timeline-panel -->
+                              </li>
+
+                              <li class="" style="color: ">
+                              <div class="posted-date">
+                                  <span class="month">Jun - Jul 2015</span>
+                              </div><!-- /posted-date -->
+
+                              <div class="timeline-panel wow fadeInUp">
+                                  <div class="timeline-content">
+                                    <div class="col-md-3 col-xs-12 pull-left text-center">
+                                      <img src="assets/img/ordell.png"></i>
+                                    </div>
+                                      <div class="timeline-heading">
+                                          <h3>Member of Technical Staff</h3>
+                                          <span>Ordell Ugo</span>
+                                      </div><!-- /timeline-heading -->
+
+                                      <div class="timeline-body">
+                                          <p>Worked on Computer Vision (OpenCV) based projects.</p>
+                                      </div><!-- /timeline-body -->
+                                  </div> <!-- /timeline-content -->
+                              </div><!-- /timeline-panel -->
+                          </li>
+
+                          </ul>
+                      </div>
+                  </div>
+          </div>
+          <div class="edu row">
+                  <div class="col-md-12  ">
+                    <div id="edu" class="resume-title wow">
+                      <h3 class="text-center">Education</h2>
+                    </div>
+                      <div class="resume">
+                          <ul class="timeline">
+                                      <li class="" style="color: ">
+                                      <div class="posted-date">
+                                          <span class="month">2013-2017</span>
+                                      </div><!-- /posted-date -->
+
+                                      <div class="timeline-panel wow fadeInUp">
+                                          <div class="timeline-content">
+                                            <div class="col-md-2 col-xs-12 pull-left text-center">
+                                              <img src="assets/img/pes.png"></i>
+                                            </div>
+                                              <div class="timeline-heading">
+                                                  <h3>BACHELOR'S DEGREE</h3>
+                                                  <span>B.E. in Comuter Science & Engineering, PES University (Formerly known as PES Institute of Technology), Bengaluru, India</span>
+                                              </div><!-- /timeline-heading -->
+
+                                              <div class="timeline-body">
+                                                  <p>Completed my bachelor's degree program at PES Institute of Technology with a CGPA of 9.13 / 10.</p>
+                                                  <p>Was one of the organizing members of a 24hr hackathon called Ayana</p>
+                                              </div><!-- /timeline-body -->
+                                          </div> <!-- /timeline-content -->
+                                      </div><!-- /timeline-panel -->
+                                  </li>
+                                      <li class="timeline-inverted" style="color: ">
+                                      <div class="posted-date">
+                                          <span class="month">2011-2013</span>
+                                      </div><!-- /posted-date -->
+
+                                      <div class="timeline-panel wow fadeInUp">
+                                          <div class="timeline-content">
+                                            <div class="col-md-2 col-xs-12 pull-left text-center">
+                                              <img src="assets/img/sjbhs.png"></i>
+                                            </div>
+                                              <div class="timeline-heading">
+                                                  <h3>HIGHER SECONDARY CERTIFICATE</h3>
+                                                  <span>St. Joseph's Boys' High School (ISC), Bengaluru, India</span>
+                                              </div><!-- /timeline-heading -->
+
+                                              <div class="timeline-body">
+                                                  <p>Secured 90.8% in the ISC Board examinations.</p>
+                                                  <p>Was involved in organizing events in Annual cultural festival</p>
+                                              </div><!-- /timeline-body -->
+                                          </div> <!-- /timeline-content -->
+                                      </div><!-- /timeline-panel -->
+                                  </li>
+                                  <li class="" style="color: ">
+                                      <div class="posted-date">
+                                          <span class="month">1998-2011</span>
+                                      </div><!-- /posted-date -->
+
+                                      <div class="timeline-panel wow fadeInUp">
+                                          <div class="timeline-content">
+                                            <div class="col-md-2 col-xs-12 pull-left text-center">
+                                              <img src="assets/img/cats.jpeg"></i>
+                                            </div>
+                                              <div class="timeline-heading">
+                                                  <h3>SECONDARY SCHOOL CERTIFICATE</h3>
+                                                  <span>Cathedral High School (ICSE), Bengaluru, India</span>
+                                              </div><!-- /timeline-heading -->
+
+                                              <div class="timeline-body">
+                                                  <p>Secured 88.4% in the ICSE Board examinations</p>
+                                                  <p>Was part of the School quiz team, House badminton team & the social responsibility group (CSR)</p>
+                                              </div><!-- /timeline-body -->
+                                          </div> <!-- /timeline-content -->
+                                      </div><!-- /timeline-panel -->
+                                  </li>
+                          </ul>
+                      </div>
+                  </div>
+          </div>
+        </section><!--/ /.container /-->
+        <!--/  Skills  /-->
+        <section id="skills" class="skills-section section-padding">
+          <div class="container">
+            <h2 class="section-title wow">Skills</h2>
+
+            <div class="skill-chart text-center">
+              <h3>Technical</h3>
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-6">
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                      <i class="fa fa-2x fa-fw fa-hashtag"></i>
+                      <span>Bash scripting</span>
+                    </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="79" aria-valuemin="0" aria-valuemax="100">
+                      <span>79%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fas fa-2x fa-fw fa-database fa-mysql"></i>
+                    <span>MySQL</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">
+                      <span>76%</span>
+                    </div>
+                  </div><!--/ /.progress /-->
+                </div><!--/ /.skill-progress /-->
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-js"></i>
+                    <span>JavaScript</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100">
+                      <span>84%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-css3-alt"></i>
+                    <span>CSS3</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="59" aria-valuemin="0" aria-valuemax="100">
+                      <span>59%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-html5"></i>
+                    <span>HTML5</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100">
+                      <span>73%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-laravel"></i>
+                    <span>Laravel</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
+                      <span>67%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-check fa-shopify"></i>
+                    <span>Shopify API</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100">
+                      <span>61%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-steam"></i>
+                    <span>Steam API</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">
+                      <span>52%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-microsoft"></i>
+                    <span>Azure</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100">
+                      <span>39%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fas fa-2x fa-fw fa-shopping-cart fa-prestashop"></i>
+                    <span>Prestashop</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="44" aria-valuemin="0" aria-valuemax="100">
+                      <span>44%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fas fa-2x fa-fw fa-cube fa-redis"></i>
+                    <span>Redis</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100">
+                      <span>66%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fas fa-2x fa-fw fa-dice-d20 fa-graphql"></i>
+                    <span>GraphQL</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100">
+                      <span>81%</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div><!--/ /.col-md-6 /-->
+
+              <div class="col-md-6">
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-mdb fa-mongodb"></i>
+                    <span>MongoDB</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                      <span>72%</span>
+                    </div>
+                  </div><!--/ /.progress /-->
+                </div><!--/ /.skill-progress /-->
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fas fa-2x fa-fw fa-code fa-perl"></i>
+                    <span>Perl</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100">
+                      <span>38%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-node-js"></i>
+                    <span>Node.js</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
+                      <span>88%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-php"></i>
+                    <span>PHP</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                      <span>68%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-magento"></i>
+                    <span>Magento</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                      <span>65%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-js"></i>
+                    <span>jQuery</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <span>90%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-facebook"></i>
+                    <span>Facebook API</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="71" aria-valuemin="0" aria-valuemax="100">
+                      <span>71%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-aws"></i>
+                    <span>Amazon Cloud</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+                      <span>45%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-microsoft"></i>
+                    <span>CosmosDB</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
+                      <span>87%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-docker"></i>
+                    <span>Docker</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="61" aria-valuemin="0" aria-valuemax="100">
+                      <span>61%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fas fa-2x fa-fw fa-check fa-rabbit"></i>
+                    <span>RabbitMQ</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100">
+                      <span>74%</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skill-progress">
+                  <div class="skill-title">
+                    <i class="fab fa-2x fa-fw fa-node"></i>
+                    <span>Express</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">
+                      <span>83%</span>
+                    </div>
+                  </div>
+                </div>
+
+              </div><!--/ /.col-md-6 /-->
+
+            </div><!--/ /.row /-->
+
+            <div class="skill-chart text-center">
+              <h3>More skills</h3>
+            </div>
+
+            <div class="row more-skill text-center">
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="chart" data-percent="93" data-color="e74c3c">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Communication</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="chart" data-percent="54" data-color="2ecc71">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Creativity</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="chart" data-percent="82" data-color="3498db">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Leadership</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="chart" data-percent="95" data-color="3498db">
+                  <span class="percent"></span>
+                  <div class="chart-text">
+                    <span>Problem Solving</span>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div><!--/ /.container /-->
+        </section><!--/ End Skills Section /-->
+
+        <!-- Works Section -->
+        <section id="works" class="works-section section-padding">
+          <div class="container">
+            <h2 class="section-title wow fadeInUp">Projects</h2>
+            <div class="row">
+              <div class="row">
+              <div class="col-md-12">
+    <div id="news-slider2" class="owl-carousel wow fadeInLeft">
+        <div class="post-slide2">
+              <div class="portfolio">
+                <div class="project-header">
+                  <div class="project-name">
+                    <h4>GSoC Project : PC Prep Kit</h4>
+                  </div>
+                </div>
+                <a class="post-img image-link" href="assets/img/works/portfolio-1.png"><img src="assets/img/works/portfolio-1.png" alt="image"></i></a>
+                <div class="project-description">
+                  <p>PC Prep Kit was a project that required development from scratch. The structure was made as
+modular as possible enabling plugging and removing components without causing any effects
+to the system as a whole.</p>
+                </div>
+                <div class="project-location">
+                  <div class="project-location-name">
+                    Google Summer of Code (GSoC)
+                  </div>
+                </div>
+                <div class="project-completion">
+                  <div class="project-completion-time">
+                    May 2017 - Aug 2017
+                  </div>
+                </div>
+                <div class="project-tech-stack">
+                  <div class="project-tech-stack-title">
+                    Tech stack
+                  </div>
+                  <div class="btn-toolbar" role="toolbar" aria-label="technologies">
+                    <div class="btn-group" role="group">
+                      <i class="fab fa-2x fa-fw fa-js-square" title="JavaScript"></i>
+                      <i class="fas fa-2x fa-fw fa-database fa-mysql" title="MySQL"></i>
+                      <i class="fab fa-2x fa-fw fa-node-js" title="Express.js"></i>
+                      <i class="fab fa-2x fa-fw fa-angular" title="Angular"></i>
+                      <i class="fab fa-2x fa-fw fa-node" title="Node.js"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <div class="project-links-title">
+                    Links
+                  </div>
+                  <div class="btn-group" role="group">
+                    <a href="#"><h4>Demo</h4></a>
+                    <a href="#"><i class="fab fa-2x fa-github"></i></a>
+                  </div>
+                </div>
+              </div><!-- /.portfolio -->
+        </div>
+
+        <div class="post-slide2">
+          <div class="portfolio">
+            <div class="project-header">
+              <div class="project-name">
+                <h4>Summarization & Opinion Spam Detection of Online Reviews</h4>
+              </div>
+            </div>
+            <a class="post-img image-link" href="assets/img/works/portfolio-2.png"><img class="portfolio-img" src="assets/img/works/portfolio-2.png" alt="image"></i></a>
+            <div class="project-description">
+              <p>This application identifies spurious reviews and also provides a consolidated review of the product by mining the reviews, extracting meaningful features from the text using Natural Language Processing (NLP) and applying various machine learning techniques to classify them as spam and non spam reviews. Additionally, reviewer information, apart from the text itself is also used to aid in this process.
+The application successfully delivered an accuracy rate of over 95%.</p>
+            </div>
+            <div class="project-location">
+              <div class="project-location-name">
+                PES Institute of Technology
+              </div>
+            </div>
+            <div class="project-completion">
+              <div class="project-completion-time">
+                Jan 2017 - Apr 2017
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <div class="project-tech-stack-title">
+                Tech stack
+              </div>
+              <div class="btn-toolbar" role="toolbar" aria-label="technologies">
+                <div class="btn-group" role="group">
+                  <i class="fab fa-2x fa-fw fa-js-square" title="JavaScript"></i>
+                  <i class="fab fa-2x fa-fw fa-python" title="Python"></i>
+                </div>
+              </div>
+            </div>
+            <div class="project-links">
+              <div class="project-links-title">
+                Links
+              </div>
+              <div class="btn-group" role="group">
+                <a href="#"><h4>Demo</h4></a>
+                <a href="#"><i class="fab fa-2x fa-github"></i></a>
+              </div>
+            </div>
+          </div><!-- /.portfolio -->
+        </div>
+
+        <div class="post-slide2">
+          <div class="portfolio">
+            <div class="project-header">
+              <div class="project-name">
+                <h4>Hex Game</h4>
+              </div>
+            </div>
+            <a class="post-img image-link" href="assets/img/works/portfolio-3.png"><img src="assets/img/works/portfolio-3.png" alt="image"></i></a>
+            <div class="project-description">
+              <p>A simple artificial intelligence algorithm using the concepts of depth first search and a winning strategy, was also implemented to provide for the computer’s play.</p>
+            </div>
+            <div class="project-location">
+              <div class="project-location-name">
+                PES Institute of Technology
+              </div>
+            </div>
+            <div class="project-completion">
+              <div class="project-completion-time">
+                Sept 2014 - Dec 2014
+              </div>
+            </div>
+            <div class="project-tech-stack">
+              <div class="project-tech-stack-title">
+                Tech stack
+              </div>
+              <div class="btn-toolbar" role="toolbar" aria-label="technologies">
+                <div class="btn-group" role="group">
+                  <i class="fab fa-2x fa-fw fa-python" title="Python"></i>
+                </div>
+              </div>
+            </div>
+            <div class="project-links">
+              <div class="project-links-title">
+                Links
+              </div>
+              <div class="btn-group" role="group">
+                <a href="#"><i class="fab fa-2x fa-github"></i></a>
+              </div>
+            </div>
+          </div><!-- /.portfolio -->
+        </div>
+    </div>
+</div>
+</div>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </section><!-- End Works Section -->
+
+        <!-- Facts Section -->
+        <section id="featured" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+          <div class="tt-overlay-bg">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="count-wrap">
+                    <div class="col-sm-4 col-xs-4">
+                      <i class="fa fa-flask"></i>
+                      <h3 class="timer">3</h3>
+                      <p>Years of Experience</p>
+                    </div>
+                    <div class="col-sm-4 col-xs-4">
+                      <i class="fa fa-thumbs-up"></i>
+                      <h3 class="timer">12</h3>
+                      <p>Projects Done</p>
+                    </div>
+                    <div class="col-sm-4 col-xs-4">
+                      <i class="fa fa-trophy"></i>
+                      <h3 class="timer">5</h3>
+                      <p>Achievements</p>
+                    </div>
+                  </div><!-- /count-wrap -->
+                </div><!-- /.col-md-12 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </div>
+        </section> <!-- End Facts Section -->
+
+        <!-- Works Section -->
+        <section id="honors-awards" class="awards-section section-padding">
+          <div class="container">
+            <h2 class="section-title wow fadeInUp">Honors / Awards & Achievements</h2>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4 portfolio-box wow fadeInUp">
+                      <div class="portfolio-box-image">
+                        <img src="assets/img/portfolio/gsoc.jpg" alt="" data-at2x="assets/img/portfolio/gsoc.jpg">
+                      </div>
+                      <h3><a href="#">Mentor Recognition</a></h3>
+                      <div class="portfolio-box-date"><i class="far fa-calendar"></i> Aug 2018</div>
+                      <p>Was one out of three mentors to be recognized as an exceptional mentor and thus received an opportunity to represent Systers open source organisation at the annual Google Summer of Code mentor summit at Google HQ in California.</p>
+                      <a class="btn btn-primary view" href="#">View certificate</a>
+                      </div>
+                        <div class="col-md-4 portfolio-box wow fadeInUp">
+                        <div class="portfolio-box-image">
+                          <img class="safe" src="assets/img/portfolio/safe.png" alt="" data-at2x="assets/img/portfolio/safe.png">
+                        </div>
+                        <h3><a href="#">SAFe Cerification</a></h3>
+                        <div class="portfolio-box-date"><i class="far fa-calendar"></i> Dec 2017 - Dec 2018</div>
+                        <p>Certified as a SAFe (Scaled Agile Framework) practitioner.</p>
+                        <a class="btn btn-primary view" href="#">View certificate</a>
+                        </div>
+                      <div class="col-md-4 portfolio-box wow fadeInDown">
+                      <div class="portfolio-box-image">
+                        <img class="recognition" src="assets/img/portfolio/recognition.png" alt="" data-at2x="assets/img/portfolio/recognition.png">
+                      </div>
+                      <h3><a href="#">School Topper</a></h3>
+                      <div class="portfolio-box-date"><i class="far fa-calendar"></i> Aug 2013</div>
+                      <p>Won trophy for securing the highest marks in the school in the ISC board exams in the subjects
+Computer Science (100/100) and Mathematics (99/100).</p>
+                      </div>
+
+                </div>
+                <div class="row">
+                  <div class="col-md-12 portfolio-box wow fadeInUp">
+                  <div class="portfolio-box-image">
+                    <img class="toastmasters" src="assets/img/portfolio/speaker.jpg" alt="" data-at2x="assets/img/portfolio/speaker.jpg">
+                  </div>
+                  <h3><a href="#">Toastmasters Enthusiast</a></h3>
+                  <div class="portfolio-box-date"><i class="far fa-calendar"></i> Jan 2018 - Present</div>
+                  <p>Secured 2nd Runner up in Area level Toastmasters contest.
+Won multiple club level contests.</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </section><!-- End Works Section -->
+
+        <section id="featured" class="featured-section section-padding">
+          <div class="container">
+            <h2 class="section-title wow">Featured</h2>
+          </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col services section-description text-center wow fadeIn">
+                      <h2>Hobbies</h2>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-4 services-box wow fadeInUp">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="services-box-icon">
+                          <i class="fas fa-photo-video"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                          <h3>Doodle Creation</h3>
+                          <p>Created several doodle videos for the company.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 services-box wow fadeInDown">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="services-box-icon">
+                          <i class="fas fa-cog"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                          <h3>UI / UX</h3>
+                          <p>Creating or upgrading UI / UX of applications.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 services-box wow fadeInUp">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="services-box-icon">
+                          <i class="fa fa-magic"></i>
+                        </div>
+                      </div>
+                      <div class="col-md-8">
+                          <h3>Content creation</h3>
+                          <p>Creating event posters for school, college and office events</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+          </div>
+
+        <!-- Blog -->
+        <div class="blog-container section-container">
+	        <div class="container">
+
+	            <div class="row">
+	                <div class="col blog section-description text-center wow fadeIn">
+	                    <h2>Articles</h2>
+	                </div>
+	            </div>
+
+	            <div class="row">
+	                <div class="col-md-6 blog-box wow fadeInLeft">
+	                	<div class="row">
+	                		<div class="col-md-4">
+	                			<div class="blog-box-image">
+	                				<img src="assets/img/blog/1.png" alt="" data-at2x="assets/img/blog/1.png">
+	                			</div>
+	                		</div>
+	                		<div class="col-md-8">
+	                			<h3><a href="#">Kotlin : Sealed classes</a></h3>
+	                			<div class="blog-box-date"><i class="far fa-calendar"></i> 24 April 2020</div>
+		                    	<p>
+		                    		Kotlin Sealed Classes for the impatient Java buffs.
+		                    	</p>
+	                		</div>
+	                	</div>
+	                </div>
+	            </div>
+
+	        </div>
+        </div>
+      </section>
+
+
+
+          <!-- Contact Section -->
+          <section id="contact" class="contact-section section-padding">
+            <div class="container">
+              <h2 class="section-title wow fadeInUp">Get in touch</h2>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="contact-form">
+                    <strong>Send me a message</strong>
+                    <form name="contact-form" method="post" action="assets/php/sendemail.php">
+                      <div class="form-group">
+                        <label for="InputName1">Name</label>
+                        <input type="text" name="name" class="form-control" id="InputName1" required="">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputEmail1">Email</label>
+                        <input type="email" name="email" class="form-control" id="InputEmail1" required="">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputSubject">Subject</label>
+                        <input type="text" name="subject" class="form-control" id="InputSubject">
+                      </div>
+                      <div class="form-group">
+                        <label for="InputTextarea">Message</label>
+                        <textarea name="message" class="form-control" id="InputTextarea" rows="5" required=""></textarea>
+                      </div>
+
+                      <button type="submit" name="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                  </div>
+                </div><!-- /.col-md-6 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+          </section><!-- End Contact Section -->
+
+        <!-- Footer -->
+        <footer>
+	        <div class="container">
+	        	<div class="row">
+
+                    <div class="col-md-12 footer-center">
+
+                    </div>
+                </div>
+                <div class="row">
+                	<div class="col footer-bottom">
+		           		<a class="scroll-link" href="#top-content"><i class="fas fa-chevron-up"></i></a>
+		           	</div>
+                </div>
+	        </div>
+        </footer>
+
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/jquery.stellar.min.js"></script>
+        <script src="assets/js/jquery.sticky.js"></script>
+        <script src="assets/js/smoothscroll.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.countTo.js"></script>
+        <script src="assets/js/jquery.inview.min.js"></script>
+        <script src="assets/js/jquery.easypiechart.js"></script>
+        <script src="assets/js/jquery.shuffle.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+        <script src="assets/js/jquery.fitvids.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+        <script src="https://gitcdn.xyz/repo/thesmart/jquery-scrollspy/0.1.3/scrollspy.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+        <script src="assets/js/carousel.js"></script>
+        <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+
+
+    </body>
+
+</html>
