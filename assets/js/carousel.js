@@ -1,4 +1,4 @@
-$("#news-slider2").owlCarousel({
+$("#projects-carousel-slider").owlCarousel({
     items:3,
     itemsDesktop:[1199,2],
     itemsDesktopSmall:[980,2],

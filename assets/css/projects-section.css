@@ -1,0 +1,84 @@
+
+/*---------------------------------------------------------
+Project Section
+-----------------------------------------------------------*/
+/* === Work Section === */
+.works-section {
+    background-color: #f7f7f7;
+}
+
+.project-header,
+.project-description,
+.project-location,
+.project-completion,
+.project-tech-stack,
+.project-links {
+  background: rgba(26, 30, 35, 0.90);
+  color: #fff;
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.project-header,
+.project-description,
+.project-completion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-header {
+  height: 60px;
+}
+
+.project-description {
+  height: 325px;
+}
+
+.project-name {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-tech-stack-title,
+.project-location-name,
+.project-completion-time,
+.project-links-title {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: none;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-links .fa-github,
+.project-links a h4{
+    color: #fff;
+    text-transform: none;
+}
+
+.project-links .fa-github:hover,
+.project-links a h4:hover{
+    color: #6cc644;
+    text-transform: none;
+}
+
+.project-img {
+  display: flex;
+  align-items: center;
+}
+
+
+.project-tech-stack {
+  text-align: center;
+}
+
+.project-name h4{
+    text-transform: none;
+    text-align: center;
+    margin: auto;
+}

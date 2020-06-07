@@ -1,0 +1,162 @@
+/* ---------------------------------------------- /*
+ * Home
+/* ---------------------------------------------- */
+/***** Top content *****/
+
+.home {
+	-webkit-background-attachment: fixed;
+    background-attachment: fixed;
+	padding: 0;
+	position: relative;
+}
+
+.home .text {
+	color: #fff;
+}
+
+.home .text h1 {
+	margin-top: 25px;
+	color: #fff;
+}
+
+.home .description {
+	margin: 30px 0 10px 0;
+}
+
+.home .description p { opacity: 0.8; }
+
+.home .top-big-link {
+	margin-top: 45px;
+}
+
+.home .bio-section{
+    padding: 200px 0;
+    background-color: rgba(26, 30, 35, 0.90);
+    background: -webkit-linear-gradient(right, rgba(26, 30, 35, 0.90) 50%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgba(26, 30, 35, 0.90) 50%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgba(26, 30, 35, 0.90) 50%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(26, 30, 35, 0.90) 50%); /* Standard syntax */
+}
+
+.intro {
+	position: absolute;
+	width: 50%;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	-webkit-transform: translate(0%, -50%);
+	   -moz-transform: translate(0%, -50%);
+		-ms-transform: translate(0%, -50%);
+		 -o-transform: translate(0%, -50%);
+			transform: translate(0%, -50%);
+	padding: 0 15px;
+}
+
+.intro h1{
+	font-size: 60px;
+	line-height: 80px;
+	margin-bottom: 16px;
+	color: #52b3d9;
+}
+.intro h1 span{
+	color: #68c3a3;
+}
+.intro p{
+	color: #f7f7f7;
+	margin-bottom: 40px;
+}
+
+.intro-sub {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+}
+
+
+.personal-info {
+  text-align: center;
+}
+
+.personal-info h1 {
+    color: #ffffff;
+    font-size: 250%;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+
+/*
+SOCIAL ICON
+-------------------------------------------*/
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a i{
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 7px;
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons a i::before {
+    position: relative;
+    z-index: 1;
+}
+
+
+/*download-button*/
+.download-button a {
+    margin-right: 20px;
+    color: #fff;
+}
+.download-button a i {
+    margin-right: 10px;
+}
+
+
+.biography{
+    margin-top: 20%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border:1px solid #EEEEEE;
+    position: relative;
+    color: rgba(26, 30, 35, 0.90);
+}
+
+.biography::after{
+    content: "";
+    border-bottom: 1px solid #EEEEEE;
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.myphoto{
+    position: relative;
+}
+
+.myphoto img{
+    position: relative;
+    z-index: -1;
+}
+
+.biography ul{
+    padding:25px 20px 30px;
+}
+
+.biography ul li{
+    padding:5px 0;
+    font-size: 16px;
+    border-bottom:1px solid #EEEEEE;
+}
+
+.biography ul li:last-child{
+    border-bottom:0;
+}

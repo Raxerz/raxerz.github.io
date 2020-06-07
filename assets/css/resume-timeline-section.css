@@ -57,6 +57,11 @@ Resume Timeline
             transform: rotate(45deg);
 }
 
+.work-details-list{
+  list-style: square;
+  padding-left: 25px;
+}
+
 .timeline:before {
     content: "";
     position: absolute;
@@ -107,7 +112,7 @@ Resume Timeline
     border-left-width: 0;
 }
 
-.timeline>li .posted-date {
+.timeline>li .period {
     position: relative;
     text-align: center;
     background-color: #fff;
@@ -115,7 +120,7 @@ Resume Timeline
 }
 
 
-.timeline>li .posted-date .month {
+.timeline>li .period .month {
     font-size: 18px;
     line-height: 20px;
     font-weight: 700;
@@ -168,13 +173,13 @@ Resume Timeline
         min-height: 100px;
     }
 
-    .timeline>li .posted-date {
+    .timeline>li .period{
         position: absolute;
         text-align: center;
         background-color: #fff;
     }
 
-    .timeline>li .posted-date:hover {
+    .timeline>li .period:hover {
         position: absolute;
         text-align: center;
         background-color: none;
@@ -196,6 +201,36 @@ Resume Timeline
         -moz-transition:all 400ms;
         -o-transition:all 400ms;
         transition: all 400ms;
+    }
+
+    .timeline-content .logo-rect-2x{
+        width: 150px;
+        height: 75px;
+    }
+
+    .timeline-content .logo-rect{
+        width: 100px;
+        height: 50px;
+    }
+
+    .timeline-content .logo-square{
+        width: 75px;
+        height: 75px;
+    }
+
+    .timeline-content .logo-square-med{
+        width: 100px;
+        height: 100px;
+    }
+
+    .timeline-content .logo-square-2x{
+        width: 125px;
+        height: 125px;
+    }
+
+    .timeline-content .timeline-body {
+        width: 100%;
+        display: block;
     }
 
     .timeline-content::after{
@@ -286,13 +321,13 @@ Resume Timeline
         border-left: 0;
     }
 
-    .timeline>li .posted-date {
+    .timeline>li .period {
         left: 50%;
         width: 120px;
         margin-left: -60px;
         margin-top: 28px;
     }
-    .timeline>li .posted-date .month {
+    .timeline>li .period .month {
         float: none;
     }
 }
