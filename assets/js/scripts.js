@@ -206,6 +206,31 @@ jQuery(function ($) {
 
     }());
 
+    (function () {
+      $('.pdf-link').magnificPopup({
+
+        removalDelay: 300, // Delay in milliseconds before popup is removed
+        mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+        type:'iframe'
+
+      });
+
+    }());
+
+    (function () {
+      $('.video-link').magnificPopup({
+          disableOn: 700,
+          type: 'iframe',
+          mainClass: 'mfp-fade',
+          removalDelay: 160,
+          preloader: false,
+
+          fixedContentPos: false
+
+      });
+
+    }());
+
     // -------------------------------------------------------------
     // WOW JS
     // -------------------------------------------------------------

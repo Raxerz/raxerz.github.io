@@ -163,6 +163,11 @@ Resume Timeline
     margin-bottom: 20px;
 }
 
+.resume-link {
+    display: flex;
+    justify-content: center;
+}
+
 @media(min-width:992px) {
     .timeline:before {
         left: 50%;

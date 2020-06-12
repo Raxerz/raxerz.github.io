@@ -251,7 +251,6 @@ hr {
 ul, ol {
     margin     : 0;
     padding    : 0;
-    list-style : none
 }
 
 
@@ -261,7 +260,7 @@ ul.list-check {
 
 ul.list-check li{
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 32px;
 }
 ul.list-check li::before {
@@ -302,21 +301,51 @@ ul.list-check li::before {
 }
 
 /* === About Section === */
+
+.about-section {
+    padding: 50px;
+}
+
+.about-title {
+    padding-bottom: 25px;
+}
+
 .short-info {
     margin-bottom: 40px;
 }
 
-.short-info h3 {
+.short-info > .desc {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.short-info ul.desc {
+    list-style: square;
+    margin-left: 50px;
+}
+
+ul.desc li{
+    position: relative;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.short-info h2 {
     margin-bottom: 30px;
 }
 
-.short-info ul {
-    margin-top: 10px;
-    display:inline-block;
+.short-info > .list-header {
+    font-size: 16px;
+    font-weight: bold;
 }
-.short-info ul li {
-    width: 50%;
-    float: left;
+
+.short-info > .list-items {
+    font-weight: bold;
+}
+
+.short-info > .list-items > ul{
+        list-style : none
 }
 
 .my-signature{

@@ -32,6 +32,7 @@
         <link rel="stylesheet" href="assets/css/awards-section.css">
         <link rel="stylesheet" href="assets/css/featured-section.css">
         <link rel="stylesheet" href="assets/css/contact-section.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
         <!-- Font awesome colors CSS -->
         <link rel="stylesheet" href="assets/css/font-awesome/css/fa-colors.css">
         <!-- Font awesome CSS -->
@@ -69,19 +70,13 @@
                             <div class="name-designation wow fadeInLeftBig">
                                 <h1>S J Rajath Krishna</h1>
                                 <div class="intro-sub">Software Engineer | GSoC Student 2017 | GSoC Mentor 2018</div>
-                                <div class="description">
-                                    <p>
-                             	             This is a free responsive one page template made with the Bootstrap framework.
-                             	               Check it out now. Download it, customize and use it as you like!
-                                    </p>
-                                </div>
                             </div>
                             <div class="top-big-link download-button wow fadeInUp">
-                                <a class="btn btn-info" href="#">
+                                <a class="btn btn-info" href="#contact">
                                     <i class="fa fa-paper-plane"></i>Send me message
                                 </a>
-        			            <a class="btn btn-primary" href="#">
-                                    <i class="fa fa-download"></i>Download my CV
+        			            <a class="btn btn-primary pdf-link" href="https://drive.google.com/file/d/1WJ9CaC2KUBjov27Bw6pNfpQLxNT14Utq/preview?usp=drivesdk">
+                                    <i class="fa fa-download"></i>View my CV
                                 </a>
                             </div>
                             <div class="social-icons" id="social-icons">
@@ -109,7 +104,7 @@
                         <div class="col-md-8 col-md-offset-2 col-xs-12">
                             <div class="biography">
                                 <div class="myphoto">
-                                    <img class="myphoto-img" src="assets/img/myphoto.jpg" alt="">
+                                    <img class="myphoto-img" src="assets/img/myphoto.png" alt="">
                                 </div>
                             </div>
                         </div> <!-- col-md-8 -->
@@ -135,7 +130,10 @@
       				<div class="collapse navbar-collapse" id="custom-collapse">
       					<ul class="nav navbar-nav navbar-right">
       						<li>
-                                <a href="#home">Home</a>
+                                <a href="#home">About me</a>
+                            </li>
+                            <li>
+                                <a href="#featured">Featured</a>
                             </li>
       						<li>
                                 <a href="#resume">Resume</a>
@@ -146,8 +144,8 @@
       						<li>
                                 <a href="#works">Projects</a>
                             </li>
-      						<li>
-                                <a href="#blog">Featured</a>
+                            <li>
+                                <a href="#honors-awards">Honors & Awards</a>
                             </li>
                             <li>
                                 <a href="#contact">Contact</a>
@@ -157,6 +155,84 @@
       			</div><!-- .container -->
       		</nav>
       	</header><!-- End Navigation -->
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+          <div class="container">
+              <div class="row">
+                  <div class="col about-title text-center wow fadeIn">
+                      <h2>About Me</h2>
+                  </div>
+              </div>
+            <div class="row text-center">
+              <div class="col-md-12">
+                <div class="short-info wow fadeInUp">
+                  <p class="desc">Proficient Software Engineer with a solid academic background, gained exposure to several technology stacks through academic and professional projects. </p>
+                  <p class="desc"> My areas of expertise includes : </p>
+                      <p>
+                          <ul class="desc">
+                              <li>Android </li>
+                              <li>Full stack</li>
+                              <li>Agile methodologies</li>
+                          </ul>
+                      </p>
+                    <p class="desc">A brief stint working on Machine Learning, Deep learning and Natural Language Processing projects has piqued my interest in this domain as well.<br>
+Tackling problems which do not have off-the-shelf solution intrigues me the most.</p>
+                </div>
+              </div>
+            </div> <!-- /.row -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="short-info wow fadeInUp">
+                        <div class="list-header">
+                            <p>I am currently working as an :</p>
+                        </div>
+                        <div class="list-items">
+                            <ul class="list-check">
+                              <li>Android Developer</li>
+                              <li>Full stack Developer</li>
+                              <li>Graphic Designer</li>
+                              <li>Video Editor</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- col-md-4 -->
+            </div>
+          </div> <!-- /.container -->
+        </section><!-- End About Section -->
+
+        <section id="featured" class="featured-section">
+            <div class="featured-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center wow fadeIn">
+                            <h2>Featured</h2>
+                        </div>
+                    </div>
+                    <!--div id="projects-carousel-slider" class="owl-carousel wow fadeInLeft">
+                        <div class="carousel"-->
+                    <div class="row">
+                        <div class="col-md-6 blog-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="blog-box-image">
+                                        <img src="assets/img/blog/1.png" alt="" data-at2x="assets/img/blog/1.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h3><a href="#">Kotlin : Sealed classes</a></h3>
+                                    <div class="blog-box-date"><i class="far fa-calendar"></i> 24 April 2020</div>
+                                    <p>
+                                        Kotlin Sealed Classes for the impatient Java buffs.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
 
         <!-- Resume section-->
         <section id="resume" class="resume-section section-padding container">
@@ -223,6 +299,7 @@
                                                 <li>Reviewing pull requests</li>
                                                 <li>Providing feedback</li>
                                             </ol>
+                                            <a class="btn btn-primary view resume-link pdf-link" href="https://drive.google.com/file/d/1leVlePK5UkghO8q2R2hgPCBlVtMmt6Xc/preview?usp=drivesdk">View certificate</a>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -253,6 +330,7 @@
                                                 <li>Designing project structure with emphasis on modularity, reusablitity and code scalability</li>
                                                 <li>Using Node.js, Angular4, MySQL related stack for developing interactive games for malaria education</li>
                                             </ol>
+                                            <a class="btn btn-primary view resume-link pdf-link" href="https://drive.google.com/file/d/14e9osv_PgiaU8nGSgoNz71-XojyVHVyx/preview?usp=drivesdk">View certificate</a>
                                         </div><!-- /timeline-body -->
                                     </div> <!-- /timeline-content -->
                                 </div><!-- /timeline-panel -->
@@ -457,12 +535,12 @@
 
                         <div class="skill-progress">
                             <div class="skill-title">
-                                <i class="fab fa-2x fa-fw fa-js"></i>
-                                <span>JavaScript</span>
+                                <i class="fab fa-2x fa-fw fa-python"></i>
+                                <span>Python</span>
                             </div>
                             <div class="progress">
-                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                    <span>75%</span>
+                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <span>80%</span>
                                 </div>
                             </div>
                         </div>
@@ -478,6 +556,18 @@
                                 </div>
                             </div><!--/ /.progress /-->
                         </div><!--/ /.skill-progress /-->
+
+                        <div class="skill-progress">
+                            <div class="skill-title">
+                                <i class="fab fa-2x fa-fw fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="skill-progress">
                             <div class="skill-title">
@@ -508,12 +598,36 @@
 
                         <div class="skill-progress">
                             <div class="skill-title">
+                                <i class="fab fa-2x fa-fw fa-angular"></i>
+                                <span>Angular</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="skill-title">
                                 <i class="fab fa-2x fa-fw fa-node-js"></i>
                                 <span>Node.js</span>
                             </div>
                             <div class="progress">
                                 <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                                     <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-progress">
+                            <div class="skill-title">
+                                <i class="fab fa-2x fa-fw fa-node"></i>
+                                <span>Express</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    <span>70%</span>
                                 </div>
                             </div>
                         </div>
@@ -550,18 +664,6 @@
                             <div class="progress">
                                 <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
                                     <span>45%</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skill-progress">
-                            <div class="skill-title">
-                                <i class="fab fa-2x fa-fw fa-node"></i>
-                                <span>Express</span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
-                                    <span>70%</span>
                                 </div>
                             </div>
                         </div>
@@ -680,7 +782,7 @@
                                                 Links
                                             </div>
                                             <div class="btn-group" role="group">
-                                                <a href="#"><h4>Demo</h4></a>
+                                                <a class="video-link" href="https://www.youtube.com/watch?v=sjflG_qEExs"><h4>Demo</h4></a>
                                                 <a href="#"><i class="fab fa-2x fa-github"></i></a>
                                             </div>
                                         </div>
@@ -725,7 +827,7 @@
                                                     Links
                                                 </div>
                                                 <div class="btn-group" role="group">
-                                                    <a href="#"><h4>Demo</h4></a>
+                                                    <a href="https://product-review-analysis.herokuapp.com/"><h4>Demo</h4></a>
                                                     <a href="#"><i class="fab fa-2x fa-github"></i></a>
                                                 </div>
                                             </div>
@@ -825,7 +927,7 @@
                                 <div class="portfolio-details">
                                     <p>Was one out of three mentors to be recognized as an exceptional mentor and thus received an opportunity to represent Systers open source organisation at the annual Google Summer of Code mentor summit at Google HQ in California.</p>
                                 </div>
-                                <a class="btn btn-primary view" href="#">View certificate</a>
+                                <a class="btn btn-primary view pdf-link" href="https://drive.google.com/file/d/1leVlePK5UkghO8q2R2hgPCBlVtMmt6Xc/preview?usp=drivesdk">View certificate</a>
                             </div>
                             <div class="col-md-3 portfolio-box wow fadeInUp">
                                 <div class="portfolio-box-image">
@@ -836,7 +938,7 @@
                                 <div class="portfolio-details">
                                     <p>Certified as a SAFe (Scaled Agile Framework) practitioner.</p>
                                 </div>
-                                <a class="btn btn-primary view" href="#">View certificate</a>
+                                <a class="btn btn-primary view pdf-link" href="https://drive.google.com/file/d/1H1phxQ_3gfkVOrWLg9DYY4FS-8mcmUXk/preview?usp=drivesdk">View certificate</a>
                             </div>
                             <div class="col-md-3 portfolio-box wow fadeInDown">
                                 <div class="portfolio-box-image">
@@ -868,7 +970,7 @@
 
         <section id="featured" class="featured-section section-padding">
             <div class="container">
-                <h2 class="section-title wow">Featured</h2>
+                <h2 class="section-title wow">Additional information</h2>
             </div>
             <div class="container">
                 <div class="row">
@@ -916,38 +1018,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Blog -->
-            <div class="blog-container section-container">
-                <div class="container">
-
-                    <div class="row">
-                        <div class="col blog section-description text-center wow fadeIn">
-                            <h2>Articles</h2>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 blog-box wow fadeInLeft">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="blog-box-image">
-                                        <img src="assets/img/blog/1.png" alt="" data-at2x="assets/img/blog/1.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <h3><a href="#">Kotlin : Sealed classes</a></h3>
-                                    <div class="blog-box-date"><i class="far fa-calendar"></i> 24 April 2020</div>
-                                    <p>
-                                        Kotlin Sealed Classes for the impatient Java buffs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>

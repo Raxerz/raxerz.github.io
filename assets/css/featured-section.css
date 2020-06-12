@@ -1,7 +1,8 @@
 
 .featured-section {
-    background-color: #1a1e23;
+    background-color: rgba(26, 30, 35, 0.90);
     color: #fff;
+    padding: 50px;
 }
 
 .featured-section .section-title{
@@ -19,12 +20,15 @@
 .featured-title h3{
     font-size: 18px;
     font-weight: 400;
-    margin-top: -6px;
     text-transform: capitalize;
 }
 
-.blog-container h3 a {
+.featured-container h3 a {
   color: #fff;
+}
+
+#featured-carousel-slider{
+    width: 100%;
 }
 
 
